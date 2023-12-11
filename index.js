@@ -36,10 +36,18 @@ inquirer
                 err ? console.log(err) : console.log(`Generated logo.svg`)
             );
         }
-
-        // fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) =>
-        //     err ? console.log(err) : console.log(`Generated logo.svg`)
-        // );
+        if (data.shape == 'Circle') {
+            let circleShape = new Circle(data.shapecolor, data.textcolor, data.text)
+            fs.writeFile(fileName, circleShape.render(), (err) =>
+                err ? console.log(err) : console.log(`Generated logo.svg`)
+            );
+        }
+        if (data.shape == 'Square') {
+            let squareShape = new Square(data.shapecolor, data.textcolor, data.text)
+            fs.writeFile(fileName, squareShape.render(), (err) =>
+                err ? console.log(err) : console.log(`Generated logo.svg`)
+            );
+        }
     });
 
 
