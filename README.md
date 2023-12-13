@@ -25,6 +25,11 @@ Instructions for ![StartApplication]: Start the application by typing in node.js
 ![logo.svg]: This is the logo generated based on your answers 
 ![ShapesTest]: Run a test for your shapes that returns a specific string and shape color by running npm run test and see if your tests pass 
 
+
+## Credits 
+
+ASKBCS was a source of guidance on a few questions on this assignment 
+
 ## License 
 
 Please refer to the LICENSE in the repo
