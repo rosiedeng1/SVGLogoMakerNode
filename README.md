@@ -18,7 +18,7 @@ https://drive.google.com/file/d/1em_wHw-3-Q5h4u21Bm0iQHn_q4E9zwd4/view
 ![StartApplication](images/StartApplication.png)
 ![Answers](images/Answers.png)
 ![logo.svg](images/logo.svg.png)
-![ShapesTest](ShapesTest.png)
+![ShapesTest](images/ShapesTest.png)
 
 Instructions for ![StartApplication]: Start the application by typing in node.js which will generate a series of prompted questions 
 ![Answers]: After you've input your answers to the questions, a logo.svg should be generated that matches your input 
